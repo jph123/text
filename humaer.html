@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			/*文字效果*/
+        text{
+            font-size: 64px;
+            font-weight: bold;
+            text-transform: uppercase;
+            fill: none;
+            stroke-width: 2px;
+            stroke-dasharray: 90 310;
+            animation: stroke 6s infinite linear;
+            
+           }
+        .text-1{
+            stroke: #3498db;
+            text-shadow: 0 0 5px #3498db;
+            animation-delay: -1.5s;
+               }
+        .text-2{
+            stroke: #f39c12;
+            text-shadow: 0 0 5px #f39c12;
+            animation-delay: -3s;
+               }
+        .text-3{
+            stroke: #e74c3c;
+            text-shadow: 0 0 5px #e74c3c;
+            animation-delay: -4.5s;
+               }
+        .text-4{
+            stroke: #9b59b6;
+            text-shadow: 0 0 5px #9b59b6;
+            animation-delay: -6s;
+               }
+        @keyframes stroke {
+            100% {
+            stroke-dashoffset: -400;
+                 }
+                          }
+                          
+             /*背景图*/
+        #aaa{
+            background-image: url(123.jpg);
+            opacity: 100%;
+           -webkit-background-size: 100% 100%;
+           background-repeat:repeat;  /*全屏平铺*/
+        }
+        /*设置body样式*/
+        body{
+			text-align: center;
+			background-size: cover;
+			}
+			/*设置图片样式*/
+		img{
+			width: 12%;/*设置高度*/
+			padding: 5px;/*设置内边距*/
+			background-color: white;/*设置背景颜色*/
+			transform: rotate(-350deg);/*设置倾斜角度*/
+			margin: 15px;/*设置外边距*/
+			position: relative;/*照片的相对位置*/
+			}
+			/*使用伪类给标签添加样式*/
+		img:hover{
+			transform: rotate(350deg) scale(2.5);/*设置旋转角度和缩放比例*/
+			z-index: 100;/*设置显示优先级别*/
+			transition: 1s;/*设置显示加载时间*/
+			}
+		</style>
+	</head>
+	<!--背景音乐-->
+    <embed width="500px" height="50px" src="tugulgan kun k.mp3" hidden="true" />
+	<!-- 彩虹文字-->
+	<body id="aaa">
+	    <svg width="100%" height="100">
+            <text text-anchor="middle" x="50%" y="50%" class="text">
+            	humar happy birthday!
+            </text>
+        </svg> 
+        <svg width="100%" height="100">
+            <text text-anchor="middle" x="50%" y="50%" class="text text-1">
+                humar happy birthday!     
+            </text>
+            <text text-anchor="middle" x="50%" y="50%" class="text text-2">
+                humar happy birthday!       
+            </text>
+            <text text-anchor="middle" x="50%" y="50%" class="text text-3">
+                humar happy birthday!         
+            </text>
+            <text text-anchor="middle" x="50%" y="50%" class="text text-4">
+                humar happy birthday!           
+            </text>
+        </svg> 
+        
+        <!--照片-->
+    <br /><br /><br/>
+		         <br/>
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" /><br />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" /><br /> 
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+		<img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" /><br />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" /><br />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" /><br />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" />
+	    <img src="123.jpg" alt="" />
+		<br />
+		<br />
+	</body>
+    <body/>
+</html>
